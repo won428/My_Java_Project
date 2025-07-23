@@ -2,7 +2,7 @@ package ch01_variable_operator;
 
 public class Add {
     public static void main(String[] args) {
-        // 변수를 선언(정의)
+        //  변수를 선언(정의)
         int x; // 정수형 데이터를 위하여 변수 x 준비해 주세요.
         int y;
         int z;

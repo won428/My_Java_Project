@@ -47,12 +47,12 @@ public class TernaryOperator {
         int z = 10;
         int max = x > y ? x : y;
         max = max > z ? max : z;
-        System.out.println("max : " + max);
+        System.out.println("max : " + max); // 3개의 수 중에서 가장 높은 수
 
         int min = x < y ? x : y;
         min = min < z ? min : z;
-        System.out.println("min : " + min);
-         // 조건 연산을 누적해서 3개의 조건으로 사용.
+        System.out.println("min : " + min); // 3개의 수 중에서 가장 작은 수
+         // 3개의 조건으로 연산을 하고 싶을때는 조건 연산을 누적해서 사용.
 
 
 

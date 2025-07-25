@@ -40,7 +40,7 @@ public class TernaryOperator {
         System.out.println(score + "점이므로 " + message + "입니다.");
          // 60점 이상이면 합격, 100점이면 만점.
          // 85점이므로 합격입니다.
-         // String에서 3개의 조건으로 숫자를 사용해야 할 때 숫자를 조건연산으로 치환해서 할당.
+         // String에서 3개의 조건으로 결과값을 3개를 넣어야하는데 숫자를 사용해야 할 때 숫자를 조건연산으로 치환해서 할당.
 
         x = 3;
         y = 8;
@@ -53,6 +53,7 @@ public class TernaryOperator {
         min = min < z ? min : z;
         System.out.println("min : " + min); // 3개의 수 중에서 가장 작은 수
          // 3개의 조건으로 연산을 하고 싶을때는 조건 연산을 누적해서 사용.
+
 
 
 
